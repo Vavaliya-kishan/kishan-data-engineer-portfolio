@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "sourceRowCount": 25,
+    "targetRowCount": 26,
+    "sourceDistinctIDs": 25,
+    "targetDistinctIDs": 25,
+    "uniquePairsCompared": 23,
+    "sourceAmountTotal": "17586.87",
+    "targetAmountTotal": "17036.88",
+    "amountDeltaTargetMinusSource": "-549.99",
+    "sourceNullAmountRows": 0,
+    "targetNullAmountRows": 1,
+    "sourceDuplicateIDs": 0,
+    "targetDuplicateIDs": 1,
+    "missingTargetIDs": 1,
+    "extraTargetIDs": 1,
+    "fieldDifferences": 7,
+    "discrepancyCount": 10,
+    "reconciliationStatus": "FAIL"
+  },
+  "discrepancies": [
+    { "issueType": "DUPLICATE_TARGET", "customerID": 1007, "columnName": "rowCount", "sourceValue": "1", "targetValue": "2" },
+    { "issueType": "EXTRA_TARGET", "customerID": 1026, "columnName": "CustomerID", "sourceValue": null, "targetValue": "1026" },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1003, "columnName": "Amount", "sourceValue": "0.00", "targetValue": null },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1004, "columnName": "Region", "sourceValue": "North", "targetValue": null },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1005, "columnName": "CustomerName", "sourceValue": "Kite Labs", "targetValue": "Kite Lab" },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1006, "columnName": "Region", "sourceValue": null, "targetValue": "West" },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1012, "columnName": "Amount", "sourceValue": "2400.00", "targetValue": "2450.00" },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1018, "columnName": "CustomerName", "sourceValue": "Aster & Co", "targetValue": "Aster and Co" },
+    { "issueType": "FIELD_MISMATCH", "customerID": 1020, "columnName": "Region", "sourceValue": "", "targetValue": null },
+    { "issueType": "MISSING_TARGET", "customerID": 1025, "columnName": "CustomerID", "sourceValue": "1025", "targetValue": null }
+  ]
+}

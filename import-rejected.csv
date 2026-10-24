@@ -1,0 +1,8 @@
+record_id,customer,order_date,quantity,unit_price,line_total,source_line,reasons
+ORD-1002,Sample Beta,2026-10-01,3,19.95,59.85,5,duplicate_id_in_file
+ORD-1004,Sample Delta,2026-02-30,1,10.00,10.00,6,order_date_must_be_valid_YYYY_MM_DD
+ORD-1005,Sample Epsilon,2026-10-02,two,10.00,20.00,7,quantity_must_be_integer_1_to_1000000
+ORD-1006,Sample Zeta,2026-10-02,2,10.00,25.00,8,line_total_does_not_equal_quantity_times_unit_price
+ORD-1007,,2026-10-02,1,5.00,5.00,9,customer_required_max_80_characters
+ORD-1009,Sample Theta,2026-10-03,1,NaN,10.00,11,unit_price_must_be_nonnegative_money_max_2_decimals
+ORD-1011,Sample Kappa,2026-10-03,1,5.005,5.01,13,unit_price_must_be_nonnegative_money_max_2_decimals

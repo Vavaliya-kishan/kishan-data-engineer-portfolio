@@ -1,0 +1,13 @@
+record_id,customer,order_date,quantity,unit_price,line_total
+ORD-1001,Sample Alpha,2026-10-01,2,125.00,250.00
+ORD-1002,Sample Beta,2026-10-01,3,19.95,59.85
+ORD-1003,Sample Gamma,2026-10-02,4,250.00,1000.00
+ORD-1002,Sample Beta,2026-10-01,3,19.95,59.85
+ORD-1004,Sample Delta,2026-02-30,1,10.00,10.00
+ORD-1005,Sample Epsilon,2026-10-02,two,10.00,20.00
+ORD-1006,Sample Zeta,2026-10-02,2,10.00,25.00
+ORD-1007,,2026-10-02,1,5.00,5.00
+ORD-1008,Sample Eta,2026-10-03,5,9.50,47.50
+ORD-1009,Sample Theta,2026-10-03,1,NaN,10.00
+ORD-1010,Sample Iota,2026-10-03,1,0.00,0.00
+ORD-1011,Sample Kappa,2026-10-03,1,5.005,5.01

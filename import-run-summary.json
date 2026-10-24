@@ -1,0 +1,29 @@
+{
+  "notice": "Synthetic portfolio demonstration. no client data or client results.",
+  "run_utc": "2026-10-24T17:11:25+00:00",
+  "source": "sample_orders.csv",
+  "database": "orders.sqlite3",
+  "money_note": "Amounts use one unspecified demo currency and integer cents; no FX conversion or tax calculation.",
+  "input_rows": 12,
+  "accepted_rows": 5,
+  "rejected_rows": 7,
+  "inserted_rows": 5,
+  "already_loaded_rows": 0,
+  "source_parseable_total": "1492.21",
+  "source_unparseable_total_rows": 0,
+  "accepted_total": "1357.35",
+  "rejected_parseable_total": "134.86",
+  "inserted_total": "1357.35",
+  "database_rows_before": 0,
+  "database_rows_after": 5,
+  "database_total_before": "0.00",
+  "database_total_after": "1357.35",
+  "reconciliation": {
+    "rows_balance": true,
+    "parseable_amounts_balance": true,
+    "unparseable_amounts_all_rejected": true,
+    "database_row_growth_matches_inserts": true,
+    "database_total_growth_matches_inserts": true
+  },
+  "all_checks_passed": true
+}
